@@ -1,0 +1,20 @@
+% Once you put in all your data in large .m file, read it in and use this to get all results
+% Once you run in, the "subj" contains all results you need 
+
+C1 = subj{40}.correct 
+C1 = C1'
+S1 = subj{40}.stimulus 
+S1 = S1'
+S1 = sort(S1)
+A1 = table(C1,S1);
+
+%count, n, subj - will be in workspace
+
+for n = 1:6;
+    A{n} = subj{n}.correct
+    B{n} = A{n}'
+    C{n} = subj{n}.stimulus 
+    D{n} = C{n}'
+    E{n} = table(B{n},D{n})
+end
+ 

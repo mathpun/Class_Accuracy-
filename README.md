@@ -26,3 +26,5 @@ In the actual file =
  s.stimulus{1} = 'images_classif/task6a_test2.png';s.type{1} = 'images_classif/task6a_train2.png';s.resp{1} = 'images_classif/task6a_train2.png';s.correct(1) = true;s.practice(1) = true;
 
 The "correct" is wheather they got it right or not!!
+
+If you run Eliza BL Sort on matlab you can use matrix B to see wach kids individual results! 
